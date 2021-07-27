@@ -85,6 +85,39 @@
 
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
+//
+// allCaps
+//
+var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+
+var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+//
+// describe("allCaps", () => {
+//   test("takes in an array and returns array with words capitalized", () => {
+//     expect(allCaps(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+//       expect(allCaps(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+//   })
+// })
+
+//pseudo code
+//this function must take in an array [] of words
+// must return an array with all words capitalized
+//function allcaps
+//parameter array
+// return- array with all words capitalized
+
+const allCaps = (array) => {
+  cappedArray =
+
+console.log(allCaps(randomNouns1))
+
+// a) Create a test with expect statements for each of the variables provided.
+//
+// var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+//
+// var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+// Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
 //Pseudo code
 //Function that takes in an array of words [word1, word2, word3]
@@ -92,18 +125,19 @@
 // input=array of words
 // output= array of words capitalized .toUpperCase()
 
-var myArray = ["word1", "word2", "word3"]
 
-const largeWords = (array) => {
-  let newArray = []
-  for (let i = 0; i < array.length; i++) {
-    newArray.push(array[i]).toUpperCase
-  }
-}
-return newArray 
-}
-
-console.log(largeWords(myArray))
+// var myArray = ["word1", "word2", "word3"]
+//
+// const largeWords = (array) => {
+//   let newArray = []
+//   for (let i = 0; i < array.length; i++) {
+//     newArray.push(array[i]).toUpperCase
+//   }
+// }
+// return newArray
+// }
+//
+// console.log(largeWords(myArray))
 
 
 
@@ -116,13 +150,50 @@ console.log(largeWords(myArray))
 // var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
-
-
 // b) Create the function that makes the test pass.
 
-
-
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
+
+
+//pseudo code for test
+// describe-test-Expect
+// i neeed expect statemets that reflect each vowelTester variable
+
+// describe("firstVowel", () => {
+//   test("takes in a string and logs the index of the first vowel", () => {
+//     expect(firstVowel(vowelTester1)).toEqual(1)
+//     expect(firstVowel(vowelTester2)).toEqual(0)
+//     expect(firstVowel(vowelTester3)).toEqual(2)
+//
+//   })
+// })
+//
+// let vowelTester1 = "learn"
+// let vowelTester2 = "academy"
+// let vowelTester3 = "challenge"
+//
+//
+// //pseudo code
+// // function - firstVowel
+// // parameter- string
+// // logs the index of each vowel
+// // must account for vowels- var vowels = "aeiou"
+// // for loop that goes through each index of string
+// // logic that takes the indexOf string index of the vowels
+// // returns the index
+//
+// firstVowel = (string) => {
+//   var vowels = "aeiou"
+//   for (let i=0; i<string.length; i++){
+//     if (vowels.indexOf(string[i]) !== -1){ // why does this work?
+//       return i }
+//     }
+//   }
+
+
+
+//pseudo code
+//describe, test
 
 // a) Create a test with expect statements for each of the variables provided.
 
@@ -132,7 +203,5 @@ console.log(largeWords(myArray))
 // // Expected output: 0
 // var vowelTester3 = "challenge"
 // Expected output: 2
-
-
 
 // b) Create the function that makes the test pass.
