@@ -14,69 +14,75 @@
 //
 // // Reminder: The test will call your function
 //
-// // --------------------1) Create a function that takes a number as an argument and decides if the number is evenly divisble by three or not.
-//
-// //Pseudo code
-// // Create a function =+evenDiv
-// // function takes in number as argument =+evenDiv(=+numb)
-// // determines if numb is evenly divisible by 3 or not:   (numb % 3 === 0)
-// // ________________
-// describe ("evenDiv", () => {
-//   test("returns a numb that is evenly divisible by 3 or not", () => {
-//     expect(evenDiv()).toEqual("divisible by 3 or not")
-//   })
-// })
-//
-// const evenDiv = () => {
-//   return ("divisible by 3 or not")
-// }
-// // _________________
-// // a) Create a test with expect statements for each of the variables provided.
-//
-// //Psudo code
-// // Create a test: Describe->test->Expect
-// // Expect "15 is divisible by three"
-//
-// // var num1 = 15
-//
-// describe ("num1", () => {
-//   test("is 15 is divisible by 3", () => {
-//     expect(num1()).toEqual("15 is divisible by 3")
-//   })
-// })
-//
-// const num1 = () => {
-//   return "15 is divisible by 3"
-// }
-// // Expected output: "15 is divisible by three"
-// // _____________
-//
-// describe ("num2", () => {
-//   test("is 0 is divisible by 3", () => {
-//     expect(num2()).toEqual("0 is divisible by 3")
-//   })
-// })
-//
-// const num2 = () => {
-//   return "0 is divisible by 3"
-// }
-//
-// // var num2 = 0
-// // Expected output: "0 is divisible by three"
-// // _________________
-//
-// describe ("num3", () => {
-//   test("is -7 not divisible by 3", () => {
-//     expect(num3()).toEqual("-7 is not divisible by 3")
-//   })
-// })
-//
-// const num3 = () => {
-//   return "-7 is not divisible by 3"
-// }
+// // --------------------
+1) Create a function that takes a number as an argument and decides if the number is evenly divisble by three or not.
 
-// var num3 = -7
-// Expected output: "-7 is not divisible by three"
+
+//Pseudo code
+// Create a function =+evenDiv
+// function takes in number as argument =+evenDiv(=+numb)
+// determines if numb is evenly divisible by 3 or not:   (numb % 3 === 0)
+// ________________
+
+
+// this is a test for the function named "evenDiv"
+describe ("evenDiv", () => {
+// the test describes the behavior of the function
+  test("returns a numb that is evenly divisible by 3 or not", () => {
+// expecting the function "evenDiv to equal /3 or not"
+    expect(evenDiv()).toEqual("divisible by 3 or not")
+  })
+})
+
+// The variable declaration and variable/function "evenDiv"
+const evenDiv = () => {
+  return ("divisible by 3 or not")
+}
+// The step above defines evenDiv so the test can work.
+// _________________
+// a) Create a test with expect statements for each of the variables provided.
+
+
+var num1 = 15
+
+describe ("num1", () => {
+  test("is 15 is divisible by 3", () => {
+    expect(num1()).toEqual("15 is divisible by 3")
+  })
+})
+
+const num1 = () => {
+  return "15 is divisible by 3"
+}
+// Expected output: "15 is divisible by three"
+// _____________
+
+describe ("num2", () => {
+  test("is 0 is divisible by 3", () => {
+    expect(num2()).toEqual("0 is divisible by 3")
+  })
+})
+
+const num2 = () => {
+  return "0 is divisible by 3"
+}
+
+var num2 = 0
+Expected output: "0 is divisible by three"
+// _________________
+
+describe ("num3", () => {
+  test("is -7 not divisible by 3", () => {
+    expect(num3()).toEqual("-7 is not divisible by 3")
+  })
+})
+
+const num3 = () => {
+  return "-7 is not divisible by 3"
+}
+
+var num3 = -7
+Expected output: "-7 is not divisible by three"
 // _____________
 
 
@@ -112,32 +118,28 @@ const allCaps = (array) => {
 console.log(allCaps(randomNouns1))
 
 // a) Create a test with expect statements for each of the variables provided.
-//
-// var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-//
-// var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-// Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
-//Pseudo code
-//Function that takes in an array of words [word1, word2, word3]
-// returns an array with all words in the array capitalized
-// input=array of words
-// output= array of words capitalized .toUpperCase()
+var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+
+var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
 
-// var myArray = ["word1", "word2", "word3"]
-//
-// const largeWords = (array) => {
-//   let newArray = []
-//   for (let i = 0; i < array.length; i++) {
-//     newArray.push(array[i]).toUpperCase
-//   }
-// }
-// return newArray
-// }
-//
-// console.log(largeWords(myArray))
+
+
+var myArray = ["word1", "word2", "word3"]
+
+const largeWords = (array) => {
+  let newArray = []
+  for (let i = 0; i < array.length; i++) {
+    newArray.push(array[i]).toUpperCase
+  }
+}
+return newArray
+}
+
+console.log(largeWords(myArray))
 
 
 
