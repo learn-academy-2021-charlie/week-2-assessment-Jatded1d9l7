@@ -7,44 +7,44 @@
 
 // --------------------1) What will this log?
 
-var cohort = "Charlie 2021"
+// var cohort = "Charlie 2021"
 // console.log(cohort.split(""))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: ["C", "h", "a", "r", "l", "i", "e", "2", "0", "2", "1"]
+// b) Verify and explain: The .split method turns a string into an array of substrings.
 
 
 // --------------------2) What will this log?
-
-const greeter = (name) => {
-  `Hello, ${name}!`
-}
+//
+// const greeter = (name) => {
+//   `Hello, ${name}!`
+// }
 // console.log(greeter("LEARN Student"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: It will log undefined
+// b) Verify and explain: It logged undefined because "Learn Student" was not defined
 
 
 // --------------------3) What will this log?
 
-var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
+// var multBy2 = [4, 5, 6, 7, 8].map(value => value * 2)
 // console.log(multBy2)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [8, 10, 12, 14, 18]
+// b) Verify and explain: .map() is an array method that goes through each value in the array.
 
 
 // --------------------4) What will this log?
 
 var oddsOnly = [11, 12, 13, 14, 15].filter(value => value % 2 === 0)
-// console.log(oddsOnly)
+console.log(oddsOnly)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: [12, 14]
+// b) Verify and explain: This gave evens because it filtered values in the array that were strictly equal to zero. The function should have read: Value % 2 !== 0 instead.
 
 
 // --------------------5) What will this log?
-
+//
 class Learn {
   constructor(){
     this.student = "George",
@@ -53,7 +53,10 @@ class Learn {
   }
 }
 var learnStudent = new Learn
-// console.log(learnStudent)
+console.log(learnStudent)
 
 // a) Your answer:
-// b) Verify and explain:
+// Student: George
+// Cohort:  Charlie
+// Year:    2021
+// b) Verify and explain: George, Charleie, and 2021 are all hard values in this class. To make changes we could either make dynaamic paremeters or make a function for one of the paremeters. 
