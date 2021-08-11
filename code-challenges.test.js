@@ -6,29 +6,29 @@
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
 
-// describe("divisible", () => {
-//          it("returns is divisible by three or is not divisible by three based on input", () => {
-//              var num1 = 15
-//              var num2 = 0
-//              var num3 = -7
-//              expect(divisible(num1)).toEqual("is divisible by 3")
-//              expect(divisible(num2)).toEqual("is divisible by 3")
-//              expect(divisible(num3)).toEqual("is not divisible by 3")
-//          })
-//      })
+describe("divisible", () => {
+         it("returns is divisible by three or is not divisible by three based on input", () => {
+             var num1 = 15
+             var num2 = 0
+             var num3 = -7
+             expect(divisible(num1)).toEqual("is divisible by 3")
+             expect(divisible(num2)).toEqual("is divisible by 3")
+             expect(divisible(num3)).toEqual("is not divisible by 3")
+         })
+     })
 
-// var num3 = -7
-//  // Expected output: "-7 is not divisible by three"
+var num3 = -7
+ // Expected output: "-7 is not divisible by three"
 
-//  const divisible = (number) => {
-//          if (number % 3 === 0){
-//              return "is divisible by 3"
-//          }else {
-//              return "is not divisible by 3"
-//          }
-//      }
+ const divisible = (number) => {
+         if (number % 3 === 0){
+             return "is divisible by 3"
+         }else {
+             return "is not divisible by 3"
+         }
+     }
 
-//      console.log(divisible(7))
+     console.log(divisible(7))
 
 
 //-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
@@ -89,25 +89,25 @@ describe("capitalize", () => {
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
-// describe("vowelLog", () => {
-//   it("returns index of first vowel in a string", () => {
-//       var vowelTester1 = "learn"
-//       var vowelTester2 = "academy"
-//       var vowelTester3 = "challenge"
-//          expect(capitalize(vowelTester1)).toEqual(1)
-//          expect(divisible(vowelTester2)).toEqual(0)
-//          expect(divisible(vowelTester3)).toEqual(2)
-//      })
-//  })
+describe("vowelLog", () => {
+  it("returns index of first vowel in a string", () => {
+      var vowelTester1 = "learn"
+      var vowelTester2 = "academy"
+      var vowelTester3 = "challenge"
+         expect(capitalize(vowelTester1)).toEqual(1)
+         expect(divisible(vowelTester2)).toEqual(0)
+         expect(divisible(vowelTester3)).toEqual(2)
+     })
+ })
 
-// const firstVowel = (string) => {
-//   for(let i=0; i<string.length; i++){
-//     let letter = string[i].toLowerCase()
-//     if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u"){
-//       return i
-//     }
-//   }
-// }
+const firstVowel = (string) => {
+  for(let i=0; i<string.length; i++){
+    let letter = string[i].toLowerCase()
+    if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u"){
+      return i
+    }
+  }
+}
 
 //-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
