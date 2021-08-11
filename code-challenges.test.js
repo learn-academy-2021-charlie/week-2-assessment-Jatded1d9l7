@@ -1,209 +1,89 @@
-// // ASSESSMENT 2: Coding practical questions with Jest
-//
-// // Please read all questions thoroughly
-// // All problems can be solved with concepts covered in class or in the syllabus
-// // Pseudo coding is REQUIRED
-// // If you get stuck, please leave comments to help us understand your thought process
-//
-// // Add appropriate dependencies to the repository:
-// // $ yarn add jest
-//
-// // Use test driven development to complete the following questions
-// // Run the file with the following command:
-// // $ yarn jest
-//
-// // Reminder: The test will call your function
-//
-// // --------------------
-1) Create a function that takes a number as an argument and decides if the number is evenly divisble by three or not.
 
-
-//Pseudo code
-// Create a function =+evenDiv
-// function takes in number as argument =+evenDiv(=+numb)
-// determines if numb is evenly divisible by 3 or not:   (numb % 3 === 0)
-// ________________
-
-
-// this is a test for the function named "evenDiv"
-describe ("evenDiv", () => {
-// the test describes the behavior of the function
-  test("returns a numb that is evenly divisible by 3 or not", () => {
-// expecting the function "evenDiv to equal /3 or not"
-    expect(evenDiv()).toEqual("divisible by 3 or not")
-  })
-})
-
-// The variable declaration and variable/function "evenDiv"
-const evenDiv = () => {
-  return ("divisible by 3 or not")
-}
-// The step above defines evenDiv so the test can work.
-// _________________
+// 1) Create a function that takes a number as an argument and decides if the number is evenly divisble by three or not.
 // a) Create a test with expect statements for each of the variables provided.
-
-
-var num1 = 15
-
-describe ("num1", () => {
-  test("is 15 is divisible by 3", () => {
-    expect(num1()).toEqual("15 is divisible by 3")
-  })
-})
-
-const num1 = () => {
-  return "15 is divisible by 3"
-}
-// Expected output: "15 is divisible by three"
-// _____________
-
-describe ("num2", () => {
-  test("is 0 is divisible by 3", () => {
-    expect(num2()).toEqual("0 is divisible by 3")
-  })
-})
-
-const num2 = () => {
-  return "0 is divisible by 3"
-}
-
-var num2 = 0
-Expected output: "0 is divisible by three"
-// _________________
-
-describe ("num3", () => {
-  test("is -7 not divisible by 3", () => {
-    expect(num3()).toEqual("-7 is not divisible by 3")
-  })
-})
-
-const num3 = () => {
-  return "-7 is not divisible by 3"
-}
-
-var num3 = -7
-Expected output: "-7 is not divisible by three"
-// _____________
-
-
 // b) Create the function that makes the test pass.
+
+//-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
+
+// var num3 = -7
+//  // Expected output: "-7 is not divisible by three"
+
+//  const divisible = (number) => {
+//          if (number % 3 === 0){
+//              return "is divisible by 3"
+//          }else {
+//              return "is not divisible by 3"
+//          }
+//      }
+
+//      console.log(divisible(7))
+
+
+//-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
-//
-// allCaps
-//
-var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-
-var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-//
-// describe("allCaps", () => {
-//   test("takes in an array and returns array with words capitalized", () => {
-//     expect(allCaps(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-//       expect(allCaps(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-//   })
-// })
-
-//pseudo code
-//this function must take in an array [] of words
-// must return an array with all words capitalized
-//function allcaps
-//parameter array
-// return- array with all words capitalized
-
-const allCaps = (array) => {
-  cappedArray =
-
-console.log(allCaps(randomNouns1))
-
 // a) Create a test with expect statements for each of the variables provided.
-
-var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-
-var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
-
-
-
-
-var myArray = ["word1", "word2", "word3"]
-
-const largeWords = (array) => {
-  let newArray = []
-  for (let i = 0; i < array.length; i++) {
-    newArray.push(array[i]).toUpperCase
-  }
-}
-return newArray
-}
-
-console.log(largeWords(myArray))
-
-
-
-
-// a) Create a test with expect statements for each of the variables provided.
-//
-// var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-//
-// var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-// Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
-
 // b) Create the function that makes the test pass.
+
+
+
+
+//-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
+
+// describe("capitalize", () => {
+//   it("returns new array with first letter of each word capitalized", () => {
+//      var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+//      var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+//          expect(capitalize(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+//          expect(divisible(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+//      })
+//  })
+
+
+
+
+//-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
+
+
+
+
+
+
+
+
 
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
-
-
-//pseudo code for test
-// describe-test-Expect
-// i neeed expect statemets that reflect each vowelTester variable
-
-// describe("firstVowel", () => {
-//   test("takes in a string and logs the index of the first vowel", () => {
-//     expect(firstVowel(vowelTester1)).toEqual(1)
-//     expect(firstVowel(vowelTester2)).toEqual(0)
-//     expect(firstVowel(vowelTester3)).toEqual(2)
-//
-//   })
-// })
-//
-// let vowelTester1 = "learn"
-// let vowelTester2 = "academy"
-// let vowelTester3 = "challenge"
-//
-//
-// //pseudo code
-// // function - firstVowel
-// // parameter- string
-// // logs the index of each vowel
-// // must account for vowels- var vowels = "aeiou"
-// // for loop that goes through each index of string
-// // logic that takes the indexOf string index of the vowels
-// // returns the index
-//
-// firstVowel = (string) => {
-//   var vowels = "aeiou"
-//   for (let i=0; i<string.length; i++){
-//     if (vowels.indexOf(string[i]) !== -1){ // why does this work?
-//       return i }
-//     }
-//   }
-
-
-
-//pseudo code
-//describe, test
-
 // a) Create a test with expect statements for each of the variables provided.
-
-// var vowelTester1 = "learn"
-// // Expected output: 1
-// var vowelTester2 = "academy"
-// // Expected output: 0
-// var vowelTester3 = "challenge"
-// Expected output: 2
-
 // b) Create the function that makes the test pass.
+
+//-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
+
+describe("vowelLog", () => {
+  it("returns index of first vowel in a string", () => {
+      var vowelTester1 = "learn"
+      var vowelTester2 = "academy"
+      var vowelTester3 = "challenge"
+         expect(capitalize(vowelTester1)).toEqual(1)
+         expect(divisible(vowelTester2)).toEqual(0)
+         expect(divisible(vowelTester3)).toEqual(2)
+     })
+ })
+
+
+
+//-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
+
