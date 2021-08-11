@@ -5,6 +5,10 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
+// pseudo code
+// Function that takes in a number 
+// Decides if the number is divisible by three
+// Use Modulo % to determine if divisible by three or not
 
 describe("divisible", () => {
          it("returns is divisible by three or is not divisible by three based on input", () => {
@@ -51,7 +55,12 @@ var num3 = -7
 // a) Create a test with expect statements for each of the variables provided.
 // b) Create the function that makes the test pass.
 
-
+//pseudo code
+// function that takes in an array 
+// returns an array with all the words capitalized 
+// .map method creates a new array
+// .toUpperCase() method returns the string value converted to uppercase.
+// .substring() method that returns the part of the string between the start and end indexes, or to the end of the string. 
 
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
@@ -86,6 +95,14 @@ describe("capitalize", () => {
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
 // a) Create a test with expect statements for each of the variables provided.
 // b) Create the function that makes the test pass.
+
+// pseudo code
+// function that takes in a string 
+// logs the index of the first vowel
+// for loop repeats until a specified condition evaluates to false
+// .toLowerCase() method that returns the calling string value converted to lowercase. 
+
+
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
