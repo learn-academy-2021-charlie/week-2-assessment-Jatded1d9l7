@@ -5,6 +5,18 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 1-
 
+
+// describe("divisible", () => {
+//          it("returns is divisible by three or is not divisible by three based on input", () => {
+//              var num1 = 15
+//              var num2 = 0
+//              var num3 = -7
+//              expect(divisible(num1)).toEqual("is divisible by 3")
+//              expect(divisible(num2)).toEqual("is divisible by 3")
+//              expect(divisible(num3)).toEqual("is not divisible by 3")
+//          })
+//      })
+
 // var num3 = -7
 //  // Expected output: "-7 is not divisible by three"
 
@@ -44,15 +56,20 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 2-
 
-// describe("capitalize", () => {
-//   it("returns new array with first letter of each word capitalized", () => {
-//      var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-//      var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
-//          expect(capitalize(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
-//          expect(divisible(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
-//      })
-//  })
+describe("capitalize", () => {
+  it("returns new array with first letter of each word capitalized", () => {
+     var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+     var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+         expect(capitalize(randomNouns1)).toEqual(["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"])
+         expect(divisible(randomNouns2)).toEqual(["Temperature", "Database", "Chopsticks", "Mango", "Deduction"])
+     })
+ })
 
+ const capitalize = (array) => {
+  return array.map(value => {
+    return value[0].toUpperCase() + value.substring(1)
+  })
+}
 
 
 
@@ -72,18 +89,25 @@
 
 //-------------------- CODE BLOCK START ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
-describe("vowelLog", () => {
-  it("returns index of first vowel in a string", () => {
-      var vowelTester1 = "learn"
-      var vowelTester2 = "academy"
-      var vowelTester3 = "challenge"
-         expect(capitalize(vowelTester1)).toEqual(1)
-         expect(divisible(vowelTester2)).toEqual(0)
-         expect(divisible(vowelTester3)).toEqual(2)
-     })
- })
+// describe("vowelLog", () => {
+//   it("returns index of first vowel in a string", () => {
+//       var vowelTester1 = "learn"
+//       var vowelTester2 = "academy"
+//       var vowelTester3 = "challenge"
+//          expect(capitalize(vowelTester1)).toEqual(1)
+//          expect(divisible(vowelTester2)).toEqual(0)
+//          expect(divisible(vowelTester3)).toEqual(2)
+//      })
+//  })
 
-
+// const firstVowel = (string) => {
+//   for(let i=0; i<string.length; i++){
+//     let letter = string[i].toLowerCase()
+//     if(letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u"){
+//       return i
+//     }
+//   }
+// }
 
 //-------------------- CODE BLOCK END ----------------------// Week-2-assessment-Jatded1d9l7 -Code Challenges- -Question 3-
 
